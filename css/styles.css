@@ -89,12 +89,15 @@ body {
 .page-header-list {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
 
 .header-address-list {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
+}
+
+.header-list-item {
   padding: 24px 0;
 }
 
@@ -165,7 +168,7 @@ body {
   padding: 120px 0;
 }
 
-.section-stratedy-title {
+.visually-hidden {
   visibility: hidden;
 }
 
@@ -253,7 +256,7 @@ body {
   column-gap: 24px;
 }
 
-.section-our-portfolio-list li {
+.our-portfolio-list-item {
   width: calc((100%-48px) / 3);
 }
 
@@ -268,15 +271,15 @@ body {
 }
 
 .page-footer {
+  display: inline-block;
   background-color: #2e2f42;
   color: #f4f4fd;
   padding: 100px 0;
+  margin-bottom: 16px;
 }
 
 .footer-logo {
-  display: inline-block;
   color: #f4f4fd;
-  margin-bottom: 16px;
 }
 
 .footer-text {
