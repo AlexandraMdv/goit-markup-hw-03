@@ -93,8 +93,9 @@ body {
   gap: 40px;
 }
 
-.header-list-item {
-  padding: 24px 0;
+.link-nav {
+  display: block;
+  padding-block: 24px;
 }
 
 .header-address-list {
@@ -273,13 +274,13 @@ body {
 .section-our-portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   row-gap: 48px;
   column-gap: 24px;
 }
 
 .our-portfolio-list-item {
-  width: calc((100%-48px) / 3);
+  background-color: #fff;
+  width: calc((100% - 48px) / 3);
 }
 
 .list-portfolio {
