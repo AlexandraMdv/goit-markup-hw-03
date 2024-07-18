@@ -47,6 +47,8 @@ body {
   max-width: 1158px;
 }
 
+/* ------- Page Header ------- */
+
 .logo {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
@@ -125,6 +127,8 @@ body {
   color: #434455;
 }
 
+/* ------- Order section ------- */
+
 .section-order {
   background-color: #2e2f42;
   color: #fff;
@@ -163,6 +167,8 @@ body {
 .order-button:focus {
   background-color: #404bbf;
 }
+
+/* ------- Strategy section ------- */
 
 .section-strategy {
   padding: 120px 0;
@@ -205,6 +211,8 @@ body {
 .strategy-list .list-title {
   margin-bottom: 8px;
 }
+
+/* ------- Our team section ------- */
 
 .section-our-team {
   background-color: #f4f4fd;
@@ -252,6 +260,8 @@ body {
   text-align: center;
 }
 
+/* ------- Our portfolio section ------- */
+
 .section-our-portfolio {
   padding: 120px 0;
 }
@@ -282,18 +292,20 @@ body {
   align-items: flex-start;
 }
 
+/* -------- Footer section -------- */
+
 .page-footer {
   background-color: #2e2f42;
   color: #f4f4fd;
   padding: 100px 0;
 }
 
-.logo {
+.logo-footer {
   display: inline-block;
   margin-bottom: 16px;
 }
 
-.footer-logo {
+.footer-logo-studio {
   color: #f4f4fd;
 }
 
